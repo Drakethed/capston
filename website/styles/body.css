@@ -1,0 +1,36 @@
+.body-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: crimson;
+  background-color: black;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+h2 {
+  color: darkred;
+}
+
+.right-column {
+  display: grid;
+  grid-row: 1fr;
+}
