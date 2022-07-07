@@ -7,7 +7,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/body.css" />
-  </head>
+    <link rel="stylesheet" href="/styles/contact.css" />
   <body>
     <!-- header -->
     <div class="navigation-wrapper">
@@ -15,11 +15,23 @@
       <div class="links">
         <a href="home.html">Home</a>
         <a href="about.html">About</a>
-        <a href="abs.html">Abs</a>
+        <a href="workouts.html">Workouts</a>
         <a href="meals.html">Meal planning</a>
       </div>
     </div>
     <!-- body -->
+    <h2>Send e-mail to someone@example.com:</h2>
+
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Comment:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
 
     <!-- footer  -->
   </body>

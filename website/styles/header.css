@@ -1,6 +1,6 @@
 .navigation-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: antiquewhite;
   margin: 0px;
@@ -11,8 +11,12 @@
 .links {
   text-decoration: none;
   color: blue;
+  padding: 15px;
 }
 
 .a {
   text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
