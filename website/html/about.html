@@ -4,52 +4,147 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/792be14c13.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>About</title>
-    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/skewed-header.css" />
+    <link rel="stylesheet" href="/styles/nav.css" />
     <link rel="stylesheet" href="/styles/body.css" />
+    <link rel="stylesheet" href="/styles/page-container.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
   </head>
+  <style>
+    body,
+    .parallax {
+      /* The image used */
+      background-image: url("/images/military.jpg");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+    }
+
+    h3 {
+      color: white;
+    }
+
+    p {
+      color: whitesmoke;
+      text-shadow: 2px 2px 4px blue;
+    }
+  </style>
   <body>
     <!-- header -->
-    <div class="navigation-wrapper">
-      <h2>About</h2>
-      <div class="links">
-        <a href="home.html">Home</a>
-        <a href="workouts.html">Workouts</a>
-        <a href="meals.html">Meal planning</a>
-        <a href="contact.html">Contact</a>
+    <div class="skewed-header">
+      <div
+        class="header-bg"
+        style="background-image: url('/images/about-us.jpg')"
+      ></div>
+
+      <div class="skewed-header-wrapper">
+        <div class="skewed-header-content">
+          <div class="heading-wrapper">
+            <h1>About</h1>
+          </div>
+
+          <div class="links-wrapper">
+            <div class="nav-link">
+              <a href="home.html">Home</a>
+            </div>
+
+            <div class="nav-link">
+              <a href="meals.html">Meals</a>
+            </div>
+
+            <div class="nav-link">
+              <a href="contact.html ">Contact</a>
+            </div>
+
+            <div class="nav-link">
+              <a href="workouts.html">Workouts</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <!-- body -->
-    <div class="body-container">
-      <div class="aboutme">
-        <h3>A little history of myself.</h3>
-        <p>
-          Growing up I was always over weight. I could never keep<br />
-          the weight off for long periods of time. It wasn't until I <br />
-          joined the military that I understood what I was doing wrong.
-        </p>
-        <img src="/images/wrong.jpg" alt="Wrong" />
+    <div class="parallax">
+      <div class="page-container">
+        <div class="content-wrapper">
+          <h3>A little history of myself.</h3>
+          <p>
+            Growing up I was always over weight. I could never keep<br />
+            the weight off for long periods of time. It wasn't until I <br />
+            joined the military that I understood what I was doing wrong.
+          </p>
+          <img src="/images/wrong.jpg" alt="Wrong" />
 
-        <p>
-          The military taught me that not only did I Have to eat well,<br />
-          I had to exercise to stay the way I wanted to be.<br />
-          This may be hard to understand for someone that thinks exercise is
-          the<br />
-          endall when they want to be healthy.<br /><br />
-          <img src="/images/healthtriangle.jpg" alt="Healthtriangle" />
-        </p>
+          <p>
+            The military taught me that not only did I Have to eat well,<br />
+            I had to exercise to stay the way I wanted to be.<br />
+            This may be hard to understand for someone that thinks exercise is
+            the<br />
+            endall when they want to be healthy.<br /><br />
+            <img src="/images/healthtriangle.jpg" alt="Healthtriangle" />
+          </p>
 
-        <p>
-          On this website you will learn how to be healthy physically.<br />
-          The other two parts of the triangle is something that cant not be
-          <br />
-          taught and thats something you will need to discover for yourself.<br />
-          I have found that when you're happy with yourself, the others come
-          <br />
-          easier than you could think.<br />
-        </p>
+          <p>
+            On this website you will learn how to be healthy physically.<br />
+            The other two parts of the triangle is something that cant not be
+            <br />
+            taught and thats something you will need to discover for
+            yourself.<br />
+            I have found that when you're happy with yourself, the others come
+            <br />
+            easier than you could think.<br />
+          </p>
+        </div>
       </div>
     </div>
     <!-- footer -->
+    <div class="footer">
+      <div class="spacer70"></div>
+      <div class="logo-footer">
+        <img src="/images/change.jpg" alt="Change Logo" />
+      </div>
+
+      <div class="footer-phone-hours"></div>
+
+      <div class="links-wrapper">
+        <div class="nav-link">
+          <a href="home.html">Home</a>
+        </div>
+        <div class="nav-link">
+          <a href="meals.html">Meals</a>
+        </div>
+        <div class="nav-link">
+          <a href="contact.html">contact</a>
+        </div>
+        <div class="nav-link">
+          <a href="workouts.html">Workouts</a>
+        </div>
+      </div>
+
+      <div class="social-media-icons-wrapper">
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+
+      <div class="copyright-wrapper">
+        &copy; 2022 Morphin Change &#124; All rights reserved
+      </div>
+    </div>
   </body>
 </html>
